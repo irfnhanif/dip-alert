@@ -4,7 +4,7 @@ CREATE TABLE subscriptions (
     symbol TEXT NOT NULL,
     category TEXT NOT NULL,   
     
-    lookback_days INTEGER NOT NULL, 
+    look_back_days INTEGER NOT NULL, 
     trigger_limit REAL NOT NULL,   
     
     last_alerted_at DATETIME,
